@@ -5,13 +5,7 @@ import LoginPage from './pages/loginPage'
 
 class App extends React.Component {
 	render(){
-		return(
-			<Switch>
-				<Route exact path="/" render={props => (
-						<LoginPage />
-					)}/>
-			</Switch>
-		)
+		return(<LoginPage />)
 	}
 }
 
